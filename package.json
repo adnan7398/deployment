@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "lean-deploy",
   "private": true,
   "scripts": {
     "build": "turbo run build",
