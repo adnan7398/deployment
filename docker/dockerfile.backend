@@ -1,0 +1,2 @@
+FROM  oven/bun:1
+WORKDIR /the/workdir/path
