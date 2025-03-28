@@ -1,0 +1,20 @@
+name : Deploy the backend
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code 
+        uses: actions/checkout@v2
+
+      - name : Docker login 
+        uses: actions/login-action@v2
+        with:
+          username : ${{ secrets.DOCKERHUB_USERNAME }}
+          password : ${{ secrets.DOCKERHUB_PASSWORD }}
+
+      
+
+      
