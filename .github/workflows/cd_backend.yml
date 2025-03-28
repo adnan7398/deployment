@@ -20,7 +20,7 @@ jobs:
           context: .
           file: ./docker/dockerfile.backend
           push: true
-          tags: 100xdevs/user-app-backend:${{ github.sha }}
+          tags: Adnan/user-app-backend:${{ github.sha }}
 
       
 
